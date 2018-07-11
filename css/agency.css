@@ -5,7 +5,7 @@
  */
 body {
   overflow-x: hidden;
-  font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 p {
@@ -98,13 +98,13 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-toggler {
-  font-size: 12px;
+  font-size: 20px;
   right: 0;
-  padding: 13px;
+  padding: 13px 16px;
   text-transform: uppercase;
   color: white;
   border: 0;
-  background-color: #fed136;
+  background-color: black;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -146,6 +146,7 @@ img::-moz-selection {
 }
 
 header.masthead {
+  min-height: 100vh;
   text-align: center;
   color: black;
   background-image: url("../img/Berkeley_Fog.jpg");
@@ -159,41 +160,24 @@ header.masthead {
 }
 
 header.masthead .intro-text {
-  padding-top: 150px;
-  padding-bottom: 100px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
 }
 
-header.masthead .intro-text {
-  font-size: 22px;
-  text-transform: uppercase;
-  line-height: 22px;
-  margin-bottom: 25px;
-  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
-@media (min-width: 768px) {
-  header.masthead .intro-text {
-    padding-top: 300px;
-    padding-bottom: 300px;
-  }
-  header.masthead .intro-text {
-    font-size: 40px;
-    line-height: 40px;
-    margin-bottom: 25px;
-    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  }
-  header.masthead .intro-text .intro-heading {
-    font-size: 60px;
-    font-weight: 700;
-    line-height: 75px;
-    margin-bottom: 50px;
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  }
+.intro-heading {
+    width: 400px;
+    height: 400px;
 }
 
 .service-heading {
   margin: 15px 0;
   text-transform: none;
+}
+
+.fa-rocket .fa-pencil .fa-cogs {
+  font-size: 100px;
 }
 
 #portfolio .portfolio-item {
@@ -301,7 +285,7 @@ header.masthead .intro-text {
   font-size: 16px;
   font-style: italic;
   margin: 20px 0 30px;
-  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .portfolio-modal .modal-content ul.list-inline {
@@ -320,7 +304,7 @@ header.masthead .intro-text {
 .portfolio-modal .close-modal {
   position: absolute;
   top: 25px;
-  right: 25px;
+  right: 0px;
   width: 75px;
   height: 75px;
   cursor: pointer;
@@ -335,25 +319,25 @@ header.masthead .intro-text {
   /* Safari and Chrome */
   z-index: 1051;
   width: 1px;
-  height: 75px;
-  margin-left: 35px;
+  height: 25px;
+  margin-left: 10px;
   /* IE 9 */
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
-  background-color: #212529;
+  background-color: black;
 }
 
 .portfolio-modal .close-modal .lr .rl {
   /* Safari and Chrome */
   z-index: 1052;
   width: 1px;
-  height: 75px;
+  height: 25px;
   /* IE 9 */
   -webkit-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
-  background-color: #212529;
+  background-color: black;
 }
 
 .timeline {
