@@ -64,7 +64,7 @@ img::-moz-selection {
 }
 
 #mainNav {
-  background-color: white;
+  background-color: black;
 }
 
 #mainNav .navbar-toggler {
@@ -72,9 +72,9 @@ img::-moz-selection {
   right: 0;
   padding: 13px 16px;
   text-transform: uppercase;
-  color: white;
+  color: black;
   border: 0;
-  background-color: black;
+  background-color: white;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -83,7 +83,7 @@ img::-moz-selection {
   font-weight: 400;
   padding: 0.75em 0;
   letter-spacing: 1px;
-  color: black;
+  color: white;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -91,7 +91,7 @@ img::-moz-selection {
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 115%;
     font-weight: 700;
-    color: black !important;
+    color: white !important;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
@@ -114,7 +114,7 @@ img::-moz-selection {
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: white;
+    background-color: black;
   }
   #mainNav.navbar-shrink {
     font-size: 1em;
@@ -126,7 +126,7 @@ header.masthead {
   min-height: 100vh;
   text-align: center;
   color: black;
-  background-image: url("../img/Berkeley_Fog.jpg");
+  background-image: url("../img/SF_Skyline.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
@@ -145,10 +145,10 @@ header.masthead .intro-text {
 
 .intro-heading {
     text-transform: uppercase;
-    color: black;
+    color: white;
     text-align: center;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 100px;
 }
 
@@ -393,10 +393,34 @@ footer {
   text-align: center;
 }
 
+.row-link {
+    margin-bottom: 15px;
+}
+
+.map-link {
+    display: block;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: black;
+    margin-bottom: 2px;
+}
+
+.map-title {
+    margin-bottom: 0px;
+    margin-top: 12px;
+}
+
+.map-link:hover {
+    color: gray;
+    text-decoration: none;
+}
+
 footer span.copyright {
-  font-size: 90%;
   line-height: 40px;
   text-transform: none;
+  font-size: 15px;
+  font-weight: 300;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -409,7 +433,7 @@ footer ul.quicklinks {
 }
 
 ul.social-buttons {
-  margin-bottom: 0;
+  margin-bottom: 6px;
 }
 
 ul.social-buttons li a {
