@@ -1,90 +1,85 @@
 body {
-  overflow-x: hidden;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 p {
-  line-height: 1.75;
+    line-height: 1.75;
 }
 
 a {
-  color: #fed136;
+    color: #fed136;
 }
 
 a:hover {
-  color: #fec503;
+    color: #fec503;
 }
 
 .text-primary {
-  color: #fed136 !important;
+    color: #fed136 !important;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 700;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 section {
-  padding: 60px 0;
+    padding: 60px 0;
 }
 
 section h2.section-heading {
-  font-size: 40px;
-  margin-top: 0;
-  margin-bottom: 60px;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 60px;
 }
 
 @media (min-width: 768px) {
-  section {
-    padding: 60px 0;
-  }
+    section {
+        padding: 60px 0;
+    }
 }
 
 ::-moz-selection {
-  background: #fed136;
-  text-shadow: none;
+    background: #fed136;
+    text-shadow: none;
 }
 
 ::selection {
-  background: #fed136;
-  text-shadow: none;
+    background: #fed136;
+    text-shadow: none;
 }
 
 img::selection {
-  background: transparent;
+    background: transparent;
 }
 
 img::-moz-selection {
-  background: transparent;
+    background: transparent;
 }
 
 #mainNav {
-  background-color: white;
+    background-color: white;
 }
 
 #mainNav .navbar-toggler {
-  font-size: 20px;
-  right: 0;
-  padding: 13px 16px;
-  text-transform: uppercase;
-  color: white;
-  border: 0;
-  background-color: black;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    right: 0;
+    padding: 13px 16px;
+    text-transform: uppercase;
+    color: white;
+    border: 0;
+    background-color: black;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
-  font-size: 90%;
-  font-weight: 400;
-  padding: 0.75em 0;
-  letter-spacing: 1px;
-  color: black;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 90%;
+    font-weight: 400;
+    padding: 0.75em 0;
+    letter-spacing: 1px;
+    color: black;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .navbar-brand {
@@ -95,45 +90,45 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: gray;
+    color: gray;
 }
 
 @media (min-width: 992px) {
-  #mainNav {
-    padding-top: 25px;
-    padding-bottom: 25px;
-    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
-    -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
-    transition: padding-top 0.3s, padding-bottom 0.3s;
-    border: none;
-    background-color: transparent;
-  }
-  #mainNav .navbar-nav .nav-item .nav-link {
-    padding: 1.1em 1em !important;
-  }
-  #mainNav.navbar-shrink {
-    padding-top: 0;
-    padding-bottom: 0;
-    background-color: white;
-  }
-  #mainNav.navbar-shrink {
-    font-size: 1em;
-    padding: 12px 0;
-  }
+    #mainNav {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+        -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
+        transition: padding-top 0.3s, padding-bottom 0.3s;
+        border: none;
+        background-color: transparent;
+    }
+    #mainNav .navbar-nav .nav-item .nav-link {
+        padding: 1.1em 1em !important;
+    }
+    #mainNav.navbar-shrink {
+        padding-top: 0;
+        padding-bottom: 0;
+        background-color: white;
+    }
+    #mainNav.navbar-shrink {
+        font-size: 1em;
+        padding: 12px 0;
+    }
 }
 
 header.masthead {
-  min-height: 100vh;
-  text-align: center;
-  color: black;
-  background-image: url("../img/Berkeley_Fog.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    min-height: 100vh;
+    text-align: center;
+    color: black;
+    background-image: url("../img/Berkeley_Fog.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 header.masthead .intro-text {
@@ -153,29 +148,29 @@ header.masthead .intro-text {
 }
 
 .team-member {
-  margin-bottom: 50px;
-  text-align: center;
+    margin-bottom: 50px;
+    text-align: center;
 }
 
 .team-member img {
-  width: 225px;
-  height: 225px;
-  border: 7px solid #fff;
+    width: 225px;
+    height: 225px;
+    border: 7px solid #fff;
 }
 
 .team-member h4 {
-  margin-top: 25px;
-  margin-bottom: 0;
-  text-transform: none;
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: none;
 }
 
 .team-member p {
-  margin-top: 0;
+    margin-top: 0;
 }
 
 footer {
-  padding: 25px 0;
-  text-align: center;
+    padding: 25px 0;
+    text-align: center;
 }
 
 .row-link {
@@ -202,40 +197,40 @@ footer {
 }
 
 footer span.copyright {
-  line-height: 40px;
-  text-transform: none;
-  font-size: 15px;
-  font-weight: 300;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 40px;
+    text-transform: none;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 footer ul.quicklinks {
-  font-size: 90%;
-  line-height: 40px;
-  margin-bottom: 0;
-  text-transform: none;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 90%;
+    line-height: 40px;
+    margin-bottom: 0;
+    text-transform: none;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 ul.social-buttons {
-  margin-bottom: 6px;
+    margin-bottom: 6px;
 }
 
 ul.social-buttons li a {
-  font-size: 20px;
-  line-height: 40px;
-  display: block;
-  width: 40px;
-  height: 40px;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
-  color: white;
-  border-radius: 100%;
-  outline: none;
-  background-color: #212529;
+    font-size: 20px;
+    line-height: 40px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    color: white;
+    border-radius: 100%;
+    outline: none;
+    background-color: #212529;
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #fed136;
+    background-color: #fed136;
 }
